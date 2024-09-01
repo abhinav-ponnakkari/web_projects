@@ -47,3 +47,18 @@ h1 {
     color:white;
     border:none;
 }
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color:white;
+    border:none;   
+}
+#msg{
+    color:aliceblue;
+    font-size: 8vmin;
+}
+
+.hide{
+    display: none;
+}
