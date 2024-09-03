@@ -31,10 +31,15 @@ boxes.forEach((box) => {
       //playerO
       box.innerText = "O";
       turnO = false;
+      box.style.backgroundColor="green";
+      box.style.color="red";
 
     } else {
       box.innerText = "X";
       turnO = true;
+      box.style.backgroundColor="blue";
+      box.style.color="black";
+
     }
     box.disabled = true;
 
@@ -51,6 +56,7 @@ const enableBoxes=()=>{
   for(let box of boxes){
     box.disabled=false;
     box.innerText="";
+    box.style.backgroundColor="#7EA3CC";
   }
 }
 
